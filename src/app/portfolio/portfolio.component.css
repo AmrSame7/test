@@ -1,0 +1,191 @@
+#portfolio .text-style{
+    color: #2C3E50;
+    
+}
+
+#portfolio .ic{
+    position: relative;
+}
+#portfolio .ic::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+   left: 41%;
+   top: 10px;
+    
+
+}
+#portfolio .ic::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 41%;
+   top: 10px;
+    
+}
+
+#portfolio img {
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+.img-1{
+    position: relative;
+}
+#portfolio .img-1:hover .img-plus{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+.img-2{
+    position: relative;
+}
+#portfolio .img-2:hover .img-plus2{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus2 {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+
+.img-3{
+    position: relative;
+}
+#portfolio .img-3:hover .img-plus3{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus3 {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+.img-4{
+    position: relative;
+}
+#portfolio .img-4:hover .img-plus4{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus4 {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+
+.img-5{
+    position: relative;
+}
+#portfolio .img-5:hover .img-plus5{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus5 {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.img-6{
+    position: relative;
+}
+#portfolio .img-6:hover .img-plus6{
+   opacity: 1;
+    cursor: pointer;
+
+
+}
+    
+
+
+#portfolio .img-plus6 {
+    font-size: 90px;
+    background-color: rgba(0, 255, 255, 0.503);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    color:#ffffff ;
+    opacity: 0;
+    transition: all .5s;
+}
+
+

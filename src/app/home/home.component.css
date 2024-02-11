@@ -1,0 +1,30 @@
+#home {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 50px 0 ;
+    
+}
+#home .ic{
+    position: relative;
+}
+#home .ic::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+   left: 30px;
+   top: 10px;
+    
+
+}
+#home .ic::before{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 30px;
+   top: 10px;
+    
+}

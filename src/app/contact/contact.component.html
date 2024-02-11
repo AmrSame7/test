@@ -1,0 +1,42 @@
+<section id="contact">
+    <div class="container">
+        <div class="text-center py-4 text-style"> <h1 class="fw-bold">CONATCT SECTION </h1>
+            <div class="ic"> <i class="fa-solid fa-star"></i></div>
+    
+           </div>
+
+           <div class="inputs w-50 m-auto  ">
+         <div class="py-2">   <label for="userName" [ngClass]="{
+            'd-block': inputTerm1 =='**',
+            'd-none': inputTerm1 ==''
+        }
+            ">userName</label>
+            <input id="userName" class="form-control  " type="text" placeholder="UserName" [(ngModel)]="inputTerm1" />
+        </div>
+          <div class="py-2">  <label for="userAge" [ngClass]="{
+                'd-block': inputTerm2 =='**',
+                'd-none': inputTerm2==''
+            }"
+            >userAge</label>
+            <input id="userAge" class="form-control" type="text" placeholder="UserAge" [(ngModel)]="inputTerm2">
+        </div>
+          <div class="py-2">  <label for="userEmail" [ngClass]="{
+                'd-block': inputTerm3 =='**',
+                'd-none': inputTerm3==''
+            }">userEmail</label>
+            <input id="userEmail" class="form-control" type="text" placeholder="UserEmail" [(ngModel)]="inputTerm3">
+        </div>
+          <div class="py-2 ">  <label for="userPass" [ngClass]="{
+                'd-block': inputTerm4 =='**',
+                'd-none': inputTerm4==''
+            }">userPassword</label>
+            <input id="userPass" class="form-control" type="text" placeholder="UserPassword" [(ngModel)]="inputTerm4">
+        </div>
+           </div>
+
+         <div class="text-center my-3">  <button class="btn btn-info text-white">Send message</button></div>
+    
+    </div>
+
+
+</section>

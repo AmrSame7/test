@@ -1,0 +1,48 @@
+#contact .text-style{
+    color: #2C3E50;
+    
+}
+
+#contact .ic{
+    position: relative;
+}
+#contact .ic::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+   left: 41%;
+   top: 10px;
+    
+
+}
+#contact .ic::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    right: 41%;
+   top: 10px;
+    
+}
+#contact .inputs input {
+    
+    border: 0;
+    border-bottom: 1px solid rgb(200, 199, 199);
+    
+   
+ 
+    
+    
+}
+#contact .inputs   input:focus {
+     
+        box-shadow: 0 0px 0px 0 transparent;
+      }
+      
+      #contact .inputs label {
+        color: #1ABC9C;
+
+      }
